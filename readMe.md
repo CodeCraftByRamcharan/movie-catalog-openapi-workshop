@@ -46,3 +46,9 @@ Branch: full-swagger-annotations
 - After starting the spring application hit the below Apis
 - Swagger UI: http://localhost:8080/swagger-ui.html
 - OpenAPI JSON: http://localhost:8080/v3/api-docs
+
+Branch: redoc-ui
+- Create the redoc.html file
+- No need of any dependencies
+- After running the application just hit the API http://localhost:8080/redoc.html
+
