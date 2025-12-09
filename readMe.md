@@ -33,9 +33,16 @@ curl -X POST http://localhost:8080/api/movies \
    curl -X DELETE http://localhost:8080/api/movies/1
 
 
-#Commits
-1. add manually written OpenAPI spec and Swagger UI via CDN
+#Commits and Branches
+
+Branch: Master
+- add manually written OpenAPI spec and Swagger UI via CDN
 - Created openapi.yml with manual OpenAPI 3.0 specification
 - Added docs.html to load Swagger UI using CDN
 - Configured project to serve static API documentation(http://localhost:8080/docs.html)
 
+Branch: full-swagger-annotations
+- Added Annotation to generate the openApi documentations for Restful Apis
+- After starting the spring application hit the below Apis
+- Swagger UI: http://localhost:8080/swagger-ui.html
+- OpenAPI JSON: http://localhost:8080/v3/api-docs
